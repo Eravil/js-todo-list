@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  background: #2f5b2f;
+  font-family: "poppins", "sans-serif";
+}
+.container {
+  max-width: 400px;
+}
+input[type="text"],
+input[type="text"]:focus {
+  color: black;
+  border: none;
+  background: white;
+  max-width: 400px;
+  font-family: "poppins", "sans-serif";
+}
+.todos li {
+  background: #3d763d;
+}
+.delete {
+  cursor: pointer;
+}
+.filtered {
+  display: none !important;
+}
